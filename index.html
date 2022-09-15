@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chipotle Navbar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css" integrity="sha512-+oRH6u1nDGSm3hH8poU85YFIVTdSnS2f+texdPGrURaJh8hzmhMiZrQth6l56P4ZQmxeZzd2DqVEMqQoJ8J89A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+  <style>
+    * {margin: 0px; padding: 0px; box-sizing: border-box;}
+    body {height: 1000vh; font-family: 'Montserrat', sans-serif;}
+  #navbar {position: fixed; margin-top: 10px; margin-left: 20px; border-bottom: 1px solid grey; width: 100%;}
+  #navbar .container .first img {width: 80px; height: 80px; margin-bottom: 10px;}
+  .container {display: flex; flex-direction: row; align-items: center; justify-content: space-between;}
+  .image,span {display: flex; flex-direction: row; align-items: center; }
+  .image span {margin-left: 20px; cursor: pointer; letter-spacing: 3px; font-size: 1.1rem;}
+  span i {font-size: 1.5rem; margin-right: 20px;}
+  span h5 {opacity: 0.6;}
+
+  .second ul li {display: inline-block; text-align: center; padding: 10px;}
+  .second ul {list-style-type: none; font-weight:bold; }
+  .second a:hover {opacity: 0.6;}
+  
+  .third {display: flex; flex-direction: row; margin-right: 40px;}
+  .second ul li a{text-decoration: none;  color: #451400; letter-spacing: 2px; font-size: 1.2rem; transition: opacity 0.15s;}
+  .third button {background-color: #441400;  border-radius: 23px; width: 200px; height: 40px; transition: background-color 0.15s;}
+  .third button p {color: #fff; cursor: pointer;}
+  .fa-bag-shopping {font-size: 1.75rem; padding-left: 20px; margin-top: 5px; color: rgb(153, 145, 145);}
+  .third button:hover {background-color: #642106;}
+
+  
+  
+
+
+  </style>
+</head>
+<body>
+ <div id="navbar">
+  <div class="container">
+    
+    <div class="first">
+      <div class="image"><img src="chipotle-logo.png" alt="logo"> <span><i class="fa-regular fa-user"></i> <h5>SIGN IN</h5></span> </div>
+    </div>
+    <div class="second"> <ul>
+      <li><a href="#">ORDER</a></li>
+      <li><a href="#">CATERING</a></li>
+      <li><a href="#">REWARDS</a></li>
+      <li><a href="#">OUR VALUES</a></li>
+      <li><a href="#">NUTRITION</a></li>
+    
+    
+    </ul></div>
+    <div class="third">
+      <button> <p><i class="fa-solid fa-pepper-hot"></i>
+        | FIND A CHIPOTLE</button></p>  <i class="fa-solid fa-bag-shopping"></i>
+        
+    </div>
+ 
+ 
+  </div>
+ 
+
+
+</body>
+</html>
